@@ -7,12 +7,14 @@ import { initReactI18next } from "react-i18next";
 const resources = {
   en: {
     translation: {
-      welcomeMSG: "Welcome to React and react-i18next"
+      welcomeMSG_one: "You have {{count}} notification", // this going to tell react-i18next to use this if the count is 1
+      welcomeMSG_other: "You have {{count}} notifications" // this is going to tell react-i18next that this key receives a count that has a value of 0 or grater than 1, its going to use this version because this a plural version.
     }
   },
   fr: {
     translation: {
-      welcomeMSG: "Bienvenue à React et react-i18next"
+      welcomeMSG_one: "Vous avez {{count}} notification",
+      welcomeMSG_other: "Vous avez {{count}} notifications" 
     }
   }
 };
@@ -31,4 +33,4 @@ i18n
     }
   });
 
-  export default i18n;
+export default i18n;

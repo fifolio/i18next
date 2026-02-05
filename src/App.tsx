@@ -5,7 +5,9 @@ export default function App() {
 
   return (
     <div>
-        {t('welcomeMSG')}
+        {t('welcomeMSG', {
+          count: 12
+        })}
     </div>
   )
 }
