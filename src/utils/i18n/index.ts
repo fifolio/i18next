@@ -1,21 +1,17 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
+import enLang from './locales/en/en.json';
+import frLang from './locales/fr/fr.json';
 
 // the translations
 // (tip move them in a JSON file and import them,
 // or even better, manage them separated from your code: https://react.i18next.com/guides/multiple-translation-files)
 const resources = {
   en: {
-    translation: {
-      welcomeMSG_one: "You have {{count}} notification", // this going to tell react-i18next to use this if the count is 1
-      welcomeMSG_other: "You have {{count}} notifications" // this is going to tell react-i18next that this key receives a count that has a value of 0 or grater than 1, its going to use this version because this a plural version.
-    }
+    translation: enLang
   },
   fr: {
-    translation: {
-      welcomeMSG_one: "Vous avez {{count}} notification",
-      welcomeMSG_other: "Vous avez {{count}} notifications" 
-    }
+    translation: frLang
   }
 };
 

@@ -1,13 +1,13 @@
+import { useState } from "react"
 import { useTranslation } from "react-i18next"
 
 export default function App() {
   const { t } = useTranslation()
+  const [username] = useState('Firas');
 
   return (
     <div>
-        {t('welcomeMSG', {
-          count: 12
-        })}
+      {t('welcomeMSG')} <b>{username}</b>!
     </div>
   )
 }
