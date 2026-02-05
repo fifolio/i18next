@@ -3,9 +3,6 @@ import { initReactI18next } from "react-i18next";
 import enLang from './locales/en/en.json';
 import frLang from './locales/fr/fr.json';
 
-// the translations
-// (tip move them in a JSON file and import them,
-// or even better, manage them separated from your code: https://react.i18next.com/guides/multiple-translation-files)
 const resources = {
   en: {
     translation: enLang
