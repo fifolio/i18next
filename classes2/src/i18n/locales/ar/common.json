@@ -1,0 +1,8 @@
+{
+    "helloUser": "مرحبا بك",
+    "logout": "تسجيل الخروج",
+    "welcomeUser": "مرحبا, {{name}}!",
+    "activeTrades_one": "لديك {{count}} صفقة نشطة",
+    "activeTrades_many": "لديك {{count}} صفقات نشطة",
+    "profitAmount": "الأرباح: ${{amount}}"
+}

@@ -1,0 +1,8 @@
+{
+    "pageTitle": "Welcome",
+    "description": "This is a multilingual app",
+    "welcomeUser": "Hello, {{name}}!",
+    "activeTrades_one": "You have {{count}} Active Trade",
+    "activeTrades_other": "You have {{count}} Active Trades",
+    "profitAmount": "Profit Amount: ${{amount}}"
+}
